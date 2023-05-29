@@ -117,51 +117,50 @@ body {
     border-radius: 30px;
   }
   
-
-  .levysloupec {
-    float: left;
-    width: 50%;
-  }
-  
-  .pravysloupec {
-    float: right;
-    width: 25%;
-    padding-left: 20px;
-  }
-  
-  .img {
-    background-color: #aaa;
-    width: 50%;
-    padding: 20px;
-  }
-  
-  .card {
-    background-color: white;
-    padding: 20px;
-    margin-top: 20px;
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
   .footer {
     padding: 20px;
     text-align: center;
     background: #ddd;
     margin-top: 20px;
   }
+
+  .clanky {
+    margin: 0;
+    padding: 5px;
+    background-color: greenyellow;
+    border-radius: 20px;
+  }
   
-  @media screen and (max-width: 800px) {
-    .levysloupec, .pravysloupec {
-      width: 100%;
-      padding: 0;
-    }
+  .clanky > h1, .clanek {
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  .clanek {
+    background: white;
+  }
+  
+  .clanek > h2, p {
+    margin: 4px;
+    font-size: 90%;
   }
 
-  ::-webkit-scrollbar {
+    .youtube1 {
+        padding-left: 850px;
+  }
+
+  th, td {
+    border-style:solid;
+    border-color: blue;
+    border-radius: 10px;
+  }
+
+  .video {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+  }
+
+::-webkit-scrollbar {
     width: 13px;
   }
   
