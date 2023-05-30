@@ -151,8 +151,8 @@ body {
 
   th, td {
     border-style:solid;
-    border-color: blue;
     border-radius: 10px;
+    border: 5px solid aquamarine;
   }
 
   .video {
@@ -174,4 +174,57 @@ body {
   
   ::-webkit-scrollbar-thumb:hover {
     background: #555; 
+  }
+
+  .p1 {
+    font: 1.2em "Fira Sans", sans-serif;
+  }
+
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .recenze {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .recenze p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .recenze .autor {
+    font-style: italic;
+    color: #777;
+  }
+  
+  .animovany-text {
+    animation: slide-in 2s forwards;
+    opacity: 0;
+  }
+  
+  @keyframes slide-in {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
   }
